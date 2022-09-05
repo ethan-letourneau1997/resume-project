@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* || GENERAL WORK || */
+
+.work-cont {
+    width: 90%;
+}
+
+    .work-header-cont {
+
+    }
+
+        .work-sec-header {
+            font-size: 2rem;
+            font-weight: 400;
+            padding-top: 20px;
+            padding-bottom: 10px;
+        }
+
+/* || EDIT WORK || */
+
+.e-work-cont {
+
+}
+
+    .e-work-bod {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 2fr;
+    }
+
+        .e-work-item {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+
+        .e-work-item input {
+            width: 80%;
+        }
+
+            .e-work-item input,
+            .e-work-date-item select,
+            .job-detail textarea {
+                height: 40px;
+
+                border: 2px solid black;
+                border-radius: 5px;
+            }
+
+        
+        .e-work-date-div{
+            display: grid;
+            grid-template-columns: 2fr 1fr 1.2fr;
+            width: 85%;
+        }
+
+            .e-work-date-sec label {
+                height: 40px;
+               
+             }
+
+                .e-work-date-item {
+                    margin-top: 10px;
+                    margin-bottom: 15px;
+                }
+
+                .work-start-date {
+                    margin-top: 10px;
+                }
+
+                    .e-work-date-item select {
+                        width: 90%;
+                    }
+
+                    .work-check-container {
+                        width: 100%;
+
+                        margin-left: 5px;
+            
+                        display: flex;
+            
+                        align-items: center;
+                        gap:10px ;
+                     
+                       
+                     
+                    }
+                        .work-check-container input{
+                            height: 20px;
+                            width: 20px;
+                        }
+        .det-span {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            color: rgba(0, 0, 0, 0.575);
+        }
+
+        .job-detail {
+          width: 80%;
+        }
+
+            .job-detail textarea{
+                font-size: 1rem;
+                height: 60px;
+            }
+
+    .remove-butn-container {
+       
+    }
+
+
+/* || SAVE WORK || */
+
+    .save-work-cont{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin-top: 20px;
+    }
+
+    .work-eddit-header-sect{
+       display: flex;
+       justify-content: space-between;
+    }
+
+        .work-eddit-header-sect button {
+            background-color: transparent;
+            border: 0;
+            border-radius: 50px;
+            width: 35px;
+        }
+
+        .work-eddit-header-sect button:hover {
+            background-color: rgba(0, 0, 0, 0.150);
+        }
+
+        .save-work-title {
+            font-size: 1.8rem;
+            font-weight: 500;
+        }
+
+        .work-name-location-section {
+            display: flex;
+            align-items: center;
+            gap: 7px;
+        }
+
+            .save-work-name{
+                font-size: 1.4rem;
+         
+            }
+
+            .save-work-location {
+                font-size: 1.1rem;
+            }
+
+        .work-save-date-section {
+            margin-top: 3px;
+            display: flex;
+            gap: 5px;
+        }
+
+        .work-details-list {
+            margin-top: 15px;
+            margin-left: 4%;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .add-work-butn {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .add-work-butn:hover {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            background-color: rgba(0, 0, 0, 0.150);
+        }
+
+        .add-edu-buttn-container {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .add-edu-buttn-container p {
+            background-color: #1C6DD0;
+            border-radius: 5px;
+            color:white;
+            padding: 7px;
+            font-size: 1rem;
+        }
